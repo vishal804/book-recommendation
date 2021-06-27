@@ -1,0 +1,77 @@
+:root {
+    --primary-color: rgba(15,23,42,0.9);
+    --background: #d1dae6;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+}
+.App {
+    text-align: left;
+    max-width: 650px;
+    font-weight: 300;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+}
+
+#booklist{
+    padding: 1rem;
+    text-align: center;
+}
+
+#booklist button{
+    padding: 1rem 1.5rem;
+    margin: .5rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    width: 11rem;
+    text-transform: capitalize;
+}
+
+#booklist button:hover {
+    transform: scale(1.1); 
+}
+
+.list{
+    list-style: none;
+    background: var(--primary-color);
+    padding: 2rem;
+    margin: 3rem 0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+#name{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+#rating{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+#author{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-bottom: -30px;
+}
+
+
